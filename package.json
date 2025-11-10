@@ -1,0 +1,25 @@
+{
+  "name": "appiumtesting",
+  "version": "1.0.0",
+  "description": "Appium test for measuring GitHub navigation and search performance on iOS Safari and Android Chrome",
+  "main": "index.js",
+  "scripts": {
+    "test:ios": "node index.js --platform=ios",
+    "test:android": "node index.js --platform=android",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "appium",
+    "mobile",
+    "testing",
+    "ios",
+    "android",
+    "automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^3.1.0",
+    "webdriverio": "^9.20.0"
+  }
+}
